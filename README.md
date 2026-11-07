@@ -1,6 +1,6 @@
 # Pipelined 32-bit RISC Processor
 
-A 5-stage pipelined 32-bit RISC processor that I designed and built from scratch in **Logisim-evolution**. It runs a custom 26-instruction ISA and handles all three kinds of pipeline hazard in hardware: **data forwarding**, **load-use stalls**, and **branch and jump control hazards**. A self-checking suite of 32 test programs verifies every instruction and every hazard case, and **all 32 tests pass**.
+A 5-stage pipelined 32-bit RISC processor that I designed and built from scratch in **Logisim-evolution**. It runs a custom 26-instruction ISA and handles all three kinds of pipeline hazard in hardware: **data forwarding**, **load-use stalls**, and **branch and jump control hazards**. A self-checking test program with 32 tests verifies every instruction and every hazard case, and all 32 tests pass. 
 
 I built it on my own to go beyond the 16-bit processor covered in my Computer Organization course (COE 301) at KFUPM. The instruction set follows a KFUPM COE 301 pipelined-processor project specification.
 
